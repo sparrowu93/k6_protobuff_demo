@@ -1,0 +1,10 @@
+syntax = "proto3";
+package demo;
+
+message Message{
+	string text = 1;
+}
+
+message Heartbeat{
+	int32 code = 1;
+}
